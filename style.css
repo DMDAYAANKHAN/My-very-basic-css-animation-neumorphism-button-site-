@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis&display=swap");
+body {
+  background-color: #ecececec;
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes change_color {
+  0.0% {
+    color: #000;
+    transform: scale3d(0, 0, 0);
+  }
+  100% {
+    color: #fbbedf;
+    transform: scale3d(0, 0, 0);
+  }
+  13.0% {
+    color: #f6ec72;
+    transform: scale3d(1, 2, 5);
+  }
+  16.0% {
+    color: #d1dbbd;
+    transform: scale3d(0, 0, 0);
+  }
+  19.8% {
+    color: #3e606f;
+    transform: scale3d(0, 0, 0);
+  }
+  23.3% {
+    color: #0098ef;
+    transform: scale3d(0, 0, 0);
+  }
+  26.9% {
+    color: #a3c6c4;
+    transform: scale3d(0, 0, 0);
+  }
+  30.9% {
+    color: #80ffdb;
+    transform: scale3d(0, 0, 0);
+  }
+  34.9% {
+    color: #f5b553;
+    transform: scale3d(0, 0, 0);
+  }
+  38.8% {
+    color: #f7f7f7;
+    transform: scale3d(0, 0, 0);
+  }
+  4.1% {
+    color: #fda403;
+  }
+  42.8% {
+    color: #e01171;
+    transform: scale3d(0, 0, 0);
+  }
+  46.9% {
+    color: #59057b;
+    transform: scale3d(0, 0, 0);
+  }
+  51.6% {
+    color: #81cbc8;
+    transform: scale3d(0, 0, 0);
+  }
+  55.8% {
+    color: #ff5200;
+    transform: scale3d(0, 0, 0);
+  }
+  60.4% {
+    color: #04536c;
+    transform: scale3d(0, 0, 0);
+  }
+  64.9% {
+    color: #1c1124;
+    transform: scale3d(0, 0, 0);
+  }
+  68.8% {
+    color: #1c1124;
+    transform: scale3d(0, 0, 0);
+  }
+  74.0% {
+    color: #b7e1b5;
+    transform: scale3d(0, 0, 0);
+  }
+  78.5% {
+    color: #ffe867;
+    transform: scale3d(0, 0, 0);
+  }
+  8.8% {
+    color: RED;
+  }
+  84.0% {
+    color: #7e94bf;
+    transform: scale3d(0, 0, 0);
+  }
+  88.4% {
+    color: #f0f2ac;
+    transform: scale3d(0, 0, 0);
+  }
+  93.4% {
+    color: #03506f;
+    transform: scale3d(0, 0, 0);
+  }
+}
+
+#full_text {
+  font-family: "Dosis", sans-serif;
+}
+
+#name {
+  box-shadow: 10px, 10px, 10px, 10px, 10px #fda403, 10px, 10px, 10px, 10px, 10px,
+    10px, 10px;
+  font-family: "Dosis", sans-serif;
+  animation: change_color 3s ease 4s infinite normal forwards;
+}
+
+#Ayaanimage{
+    width: 400px;
+}
+#image {
+    clip-path: circle(12.1% at 50% 55%);
+}
+
+#imagediv {
+    width: 1000px;
+    padding-top: 1px;
+}
+
+#buttondiv1{
+    padding-top: 55px;
+}
+
+#buttondiv2{
+    border-radius: 150px;
+background: linear-gradient(145deg, #dadada, #b8b8b8);
+box-shadow:  50px 50px 100px #525252,
+             -50px -50px 100px #ffffff;
+    width: 150px;
+    height: 150px;
+    background-color: #cccccccc;
+}
+
+#buttondiv2:active{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 150px;
+    background: #cccccc;
+    box-shadow: inset 50px 50px 100px #525252,
+                inset -50px -50px 100px #ffffff;
+        width: 150px;
+        height: 150px;
+        background-color: #cccccccc;
+}
+
+#icononoff {
+    color: rgb(45, 233, 45);
+    font-size: 50px;
+    
+}
+
+#icononoff:active{
+    color: rgb(186, 243, 172);
+}
+
+#icon11{
+    padding-top: 35%;
+    
+}
